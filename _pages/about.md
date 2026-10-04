@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p>Email: david010330@gmail.com</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
