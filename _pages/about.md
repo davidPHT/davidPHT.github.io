@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
-  <p> Master's Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University | 2024-2026
-  <p> Bachelor's Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University | 2020-2024
+subtitle: Master's Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University | 2024-2026 Bachelor's Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University | 2020-2024
 
 profile:
   align: right
