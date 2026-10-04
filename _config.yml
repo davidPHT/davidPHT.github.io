@@ -116,6 +116,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
+analytics:
+  google: G-3F66GCZ23H
 # -----------------------------------------------------------------------------
 
 analytics:
