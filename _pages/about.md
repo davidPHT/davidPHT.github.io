@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: M.S. Graduate in Aeronautics and Astronautics, NCKU
-subtitle: 
+subtitle: Embedded Systems | Control Systems | Avionics & System Integration
+subtitle: My work focuses on satellite attitude control, embedded software development, and hardware-software integration, with hands-on experience in CubeSat, rocket avionics, and CanSat projects.
 
 profile:
   align: right
@@ -28,17 +29,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I am PingHua Tsai. I earned my Master's degree in Aeronautics and Astronautics from National Cheng Kung University (NCKU). 
-I am currently completing my mandatory military service and will be available for full-time positions starting in January 2027.
+## About Me
+Hello, I'm PingHua Tsai. I hold a Master's degree in Aeronautics and Astronautics from National Cheng Kung University (NCKU), specializing in control systems, embedded software development, and hardware-software integration.
 
-### Education
-**Master's Graduate**, Department of Aeronautics and Astronautics (Control Group), NCKU | 2024-2026
-  **Thesis:Event-Triggered Sliding-Mode and RL-Assisted Parameter Optimization for Satellite Attitude Control** 
-  **Keywords:Integral Sliding Mode Control, Event-triggered Mechanism, Reinforcement Learning, Satellite Attitude Control, MATLAB/Simulink**
-**Bachelor's Graduate**, Department of Aeronautics and Astronautics, NCKU | 2020-2024
+My master's research focused on satellite attitude control, combining Event-Triggered Integral Sliding Mode Control (ET-ISMC) with Deep Deterministic Policy Gradient (DDPG) reinforcement learning. Through MATLAB/Simulink modeling and hardware experiments, I gained experience in control algorithm development, system modeling, and performance evaluation.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Beyond academic research, I have participated in CubeSat, rocket avionics, and CanSat projects. My experience includes C++ firmware development, ROS-based communication, sensor integration using I2C/UART/SPI, PCB design, and hardware testing. These projects have strengthened my ability to bridge software development with real-world hardware implementation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am particularly interested in embedded systems, avionics software, control systems, and system integration, with a focus on developing reliable and practical engineering solutions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently completing my mandatory military service and will be available for full-time employment starting in January 2027.
