@@ -83,7 +83,7 @@ B.S. in Aeronautics and Astronautics
 
 ## Technical Skills
 
-### Programming & Software
+<h4>Programming & Software</h4>
 
 <div class="skill-badges">
   <span class="skill-badge">C++</span>
@@ -91,7 +91,7 @@ B.S. in Aeronautics and Astronautics
   <span class="skill-badge">ROS</span>
 </div>
 
-### Embedded Platforms & Interfaces
+<h4>Embedded Platforms & Interfaces<h4>
 
 <div class="skill-badges">
   <span class="skill-badge">Raspberry Pi</span>
@@ -102,7 +102,7 @@ B.S. in Aeronautics and Astronautics
   <span class="skill-badge">SPI</span>
 </div>
 
-### Control & Engineering
+<h4>Control & Engineering<h4>
 
 <div class="skill-badges">
   <span class="skill-badge">Control Systems</span>
