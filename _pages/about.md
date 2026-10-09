@@ -76,6 +76,8 @@ M.S. in Aeronautics and Astronautics, Control Group
 **Research Areas:**  
 Satellite Attitude Control, Sliding Mode Control, Reinforcement Learning, MATLAB/Simulink
 
+<br>
+
 **National Cheng Kung University (NCKU)**  
 B.S. in Aeronautics and Astronautics  
 2020 – 2024
