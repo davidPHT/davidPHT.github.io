@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: M.S. Graduate in Aeronautics and Astronautics, NCKU
+subtitle: 
 
 profile:
   align: right
@@ -11,7 +12,7 @@ profile:
   more_info: >
     <p>Email: david010330@gmail.com</p>
     <p>No.9, Ln.112, Fuxing Rd.</p>
-    <p> Qiaotou Vil., Fuxing Township, Changhua County, Taiwan</p>
+    <p>Qiaotou Vil., Fuxing Township, Changhua County, Taiwan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,6 +27,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+Hello, I am PingHua. I recently earned my Master's degree in Aeronautics and Astronautics from National Cheng Kung University (NCKU). 
+I am currently completing my mandatory military service and will be available for full-time positions starting in January 2027.
+
+### Education
+**Master's Graduate**, Department of Aeronautics and Astronautics, NCKU | 2024-2026
+**Bachelor's Graduate**, Department of Aeronautics and Astronautics, NCKU | 2020-2024
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
