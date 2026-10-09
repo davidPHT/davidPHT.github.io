@@ -25,6 +25,33 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 24px;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid #666;
+  border-radius: 20px;
+  background-color: #303030;
+  color: #f5f5f5;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.skill-badge:hover {
+  border-color: #4da3d9;
+  color: #4da3d9;
+}
+</style>
+
+---
+
 ## About Me
 Hello, I'm **PingHua Tsai**, a recent Master's graduate in Aeronautics and Astronautics from National Cheng Kung University (NCKU), with a focus on control systems, embedded software, and hardware-software integration.
 
