@@ -28,11 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I am PingHua. I recently earned my Master's degree in Aeronautics and Astronautics from National Cheng Kung University (NCKU). 
+Hello, I am PingHua Tsai. I earned my Master's degree in Aeronautics and Astronautics from National Cheng Kung University (NCKU). 
 I am currently completing my mandatory military service and will be available for full-time positions starting in January 2027.
 
 ### Education
-**Master's Graduate**, Department of Aeronautics and Astronautics, NCKU | 2024-2026
+**Master's Graduate**, Department of Aeronautics and Astronautics (Control Group), NCKU | 2024-2026
+  **Thesis:Event-Triggered Sliding-Mode and RL-Assisted Parameter Optimization for Satellite Attitude Control** 
+  **Keywords:Integral Sliding Mode Control, Event-triggered Mechanism, Reinforcement Learning, Satellite Attitude Control, MATLAB/Simulink**
 **Bachelor's Graduate**, Department of Aeronautics and Astronautics, NCKU | 2020-2024
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
