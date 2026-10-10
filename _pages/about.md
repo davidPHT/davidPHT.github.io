@@ -66,8 +66,8 @@ I am currently completing my mandatory military service and will be available fo
 
 ## Education
 
-**National Cheng Kung University (NCKU)**  
-M.S. in Aeronautics and Astronautics, Control Group  
+**M.S. in Aeronautics and Astronautics, Control Group**  
+National Cheng Kung University (NCKU)  
 2024 – 2026
 
 **Master's Thesis:**  
@@ -78,8 +78,8 @@ Satellite Attitude Control, Sliding Mode Control, Reinforcement Learning, MATLAB
 
 <br>
 
-**National Cheng Kung University (NCKU)**  
-B.S. in Aeronautics and Astronautics  
+**B.S. in Aeronautics and Astronautics**  
+National Cheng Kung University (NCKU) 
 2020 – 2024
 
 ---
