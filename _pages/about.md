@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Graduate, Department of Aeronautics and Astronautics, National Cheng Kung University
+subtitle: M.S. in Aeronautics and Astronautics | Embedded Systems | Control Systems | Avionics
 
 profile:
   align: right
@@ -10,25 +10,105 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: david010330@gmail.com</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Phone: 0976201833</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<style>
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 24px;
+}
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+.skill-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid #666;
+  border-radius: 20px;
+  background-color: #303030;
+  color: #f5f5f5;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+.skill-badge:hover {
+  border-color: #4da3d9;
+  color: #4da3d9;
+}
+</style>
+
+---
+
+## About Me
+Hello, I'm **PingHua Tsai**, a recent Master's graduate in Aeronautics and Astronautics from National Cheng Kung University (NCKU), with a focus on control systems, embedded software, and hardware-software integration.
+
+My experience spans satellite attitude control research, CubeSat subsystem development, and hands-on avionics projects. I have worked with C++, MATLAB/Simulink, ROS, and embedded platforms such as Raspberry Pi, Arduino, and Teensy, gaining practical experience in firmware development, sensor integration, system debugging, and hardware validation.
+
+I am particularly interested in bridging control algorithms and real-world hardware, with an emphasis on reliable embedded systems and system-level integration.
+
+I am currently completing my compulsory military service and will be available for full-time employment starting in **January 2027**.
+
+---
+
+## Education
+
+**M.S. in Aeronautics and Astronautics, Control Group**  
+National Cheng Kung University (NCKU)  
+2024 – 2026
+
+**Master's Thesis:**  
+*Event-Triggered Sliding-Mode Control with Reinforcement Learning-Assisted Parameter Optimization for Satellite Attitude Control*
+
+**Research Areas:**  
+Satellite Attitude Control, Sliding Mode Control, Reinforcement Learning, MATLAB/Simulink
+
+**B.S. in Aeronautics and Astronautics**  
+National Cheng Kung University (NCKU) 
+2020 – 2024
+
+---
+
+## Technical Skills
+
+<h4>Programming & Software</h4>
+
+<div class="skill-badges">
+  <span class="skill-badge">C++</span>
+  <span class="skill-badge">MATLAB/Simulink</span>
+  <span class="skill-badge">ROS</span>
+</div>
+
+<h4>Embedded Platforms & Interfaces<h4>
+
+<div class="skill-badges">
+  <span class="skill-badge">Raspberry Pi</span>
+  <span class="skill-badge">Arduino</span>
+  <span class="skill-badge">Teensy</span>
+  <span class="skill-badge">I2C</span>
+  <span class="skill-badge">UART</span>
+  <span class="skill-badge">SPI</span>
+</div>
+
+<h4>Control & Engineering<h4>
+
+<div class="skill-badges">
+  <span class="skill-badge">Control Systems</span>
+  <span class="skill-badge">Reinforcement Learning</span>
+  <span class="skill-badge">PCB Design</span>
+  <span class="skill-badge">Hardware-in-the-Loop</span>
+  <span class="skill-badge">System Integration</span>
+</div>
