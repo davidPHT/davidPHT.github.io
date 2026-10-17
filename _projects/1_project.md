@@ -15,15 +15,15 @@ Our team previously used QGroundControl (QGC) for UAV operations. However, analy
 To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (Open MCT) framework to develop a customizable ground station. By integrating UAV telemetry data with Open MCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
 
  ---
-    ### Development Environment
-    **Ground Station Framework:** NASA Open MCT
-    **Programming Languages:** C++, Python, JavaScript
-    **Runtime Environment:** Node.js
-    **Communication:** MAVLink, MAVSDK, UDP
-    **Simulation:** PX4 SITL, jMAVSim
-    **Build Tools:** CMake, Git
-    
-For detailed environment setup, build procedures, and troubleshooting records, refer to the [Technical Documentation](https://hackmd.io/@ncku-uav/BkuQc-tPc).
+### Development Environment
+    Ground Station Framework: NASA Open MCT
+    Programming Languages: C++, Python, JavaScript
+    Runtime Environment: Node.js
+    Communication: MAVLink, MAVSDK, UDP
+    Simulation: PX4 SITL, jMAVSim
+    Build Tools: CMake, Git
+#### For detailed environment setup, build procedures, and troubleshooting records, refer to the [Technical Documentation](https://hackmd.io/@ncku-uav/BkuQc-tPc).
+
 ---
 
 ### My Contributions
