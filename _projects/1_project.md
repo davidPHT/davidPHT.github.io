@@ -22,6 +22,7 @@ To address these limitations, we adopted NASA's open-source Open Mission Control
     Communication: MAVLink, MAVSDK, UDP
     Simulation: PX4 SITL, jMAVSim
     Build Tools: CMake, Git
+    
 #### For detailed environment setup, build procedures, and troubleshooting records, refer to the [Technical Documentation](https://hackmd.io/@ncku-uav/BkuQc-tPc).
 
 ---
