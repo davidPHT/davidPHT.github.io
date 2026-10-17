@@ -10,26 +10,27 @@ related_publications: false
 
 ### Overview
 
-    Our team previously used QGroundControl (QGC) for UAV operations. However, analyzing specific flight parameters often required retrieving recorded data from onboard storage after each flight. Customizing QGroundControl to meet our team's telemetry visualization requirements was also considered time-consuming.
+Our team previously used QGroundControl (QGC) for UAV operations. However, analyzing specific flight parameters often required retrieving recorded data from onboard storage after each flight. Customizing QGroundControl to meet our team's telemetry visualization requirements was also considered time-consuming.
 
-    To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (Open MCT) framework to develop a customizable ground station. By integrating UAV telemetry data with Open MCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
+To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (Open MCT) framework to develop a customizable ground station. By integrating UAV telemetry data with Open MCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
 
 ### My Contributions
-    Role: Primary Developer – Ground Station Software Integration
+Role: Primary Developer – Ground Station Software Integration
 
-    I was primarily responsible for developing and integrating the Open MCT-based UAV ground station, with technical guidance and feedback from a senior team member and a fellow student.
+I was primarily responsible for developing and integrating the Open MCT-based UAV ground station, with technical guidance and feedback from a senior team member and a fellow student.
 
-    My main responsibilities included:
+My main responsibilities included:
 
-    Ground Station Development: Set up and customized NASA's Open MCT framework to support UAV telemetry visualization.
+Ground Station Development: Set up and customized NASA's Open MCT framework to support UAV telemetry visualization.
 
-    Telemetry Integration: Integrated MAVSDK and MAVLink communication to retrieve flight telemetry data and connect it to the Open MCT visualization interface.
+Telemetry Integration: Integrated MAVSDK and MAVLink communication to retrieve flight telemetry data and connect it to the Open MCT visualization interface.
 
-    Software Integration: Worked with C++, Python, JavaScript, and Node.js components to establish the telemetry data processing and visualization workflow.
+Software Integration: Worked with C++, Python, JavaScript, and Node.js components to establish the telemetry data processing and visualization workflow.
 
-    Simulation and Testing: Used PX4 SITL and jMAVSim to test telemetry communication and verify flight parameter visualization.
+Simulation and Testing: Used PX4 SITL and jMAVSim to test telemetry communication and verify flight parameter visualization.
 
-    Debugging and Troubleshooting: Investigated software integration issues, dependency conflicts, and compilation errors during development.
+Debugging and Troubleshooting: Investigated software integration issues, dependency conflicts, and compilation errors during development.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
