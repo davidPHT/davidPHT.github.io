@@ -12,11 +12,11 @@ related_publications: false
 
 Our team previously used QGroundControl (QGC) for UAV operations. However, analyzing specific flight parameters often required retrieving recorded data from onboard storage after each flight. Customizing QGroundControl to meet our team's telemetry visualization requirements was also considered time-consuming.
 
-To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (Open MCT) framework to develop a customizable ground station. By integrating UAV telemetry data with Open MCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
+To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (OpenMCT) framework to develop a customizable ground station. By integrating UAV telemetry data with OpenMCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
 
  ---
 ### Development Environment
-    Ground Station Framework: NASA Open MCT
+    Ground Station Framework: NASA OpenMCT
     Programming Languages: C++, Python, JavaScript
     Runtime Environment: Node.js
     Communication: MAVLink, MAVSDK, UDP
@@ -45,42 +45,44 @@ OpenMCT to enable real-time UAV telemetry visualization.
 
 Role: Primary Developer
 
-I was primarily responsible for the development and integration of the Open MCT-based UAV ground station, with technical guidance and feedback from other team members.
+I was primarily responsible for the development and integration of the OpenMCT-based UAV ground station, with technical guidance and feedback from other team members.
 
-    Technologies: C++, Python, JavaScript, Node.js, Open MCT, MAVSDK, MAVLink, MAVProxy, PX4 SITL, jMAVSim, CMake
+    Technologies: C++, Python, JavaScript, Node.js, OpenMCT, MAVSDK, MAVLink, MAVProxy, PX4 SITL, jMAVSim, CMake
 
 1. MAVSDK Telemetry Integration
-
 Adapted existing MAVSDK C++ example code to retrieve UAV flight telemetry from PX4 via the MAVLink protocol.
-
 Integrated MAVProxy to forward MAVLink messages to both QGroundControl and the MAVSDK application.
+Connected the MAVSDK application to the OpenMCT telemetry server through socket communication.
 
-Connected the MAVSDK application to the Open MCT telemetry server through socket communication.
-
-2. Open MCT Customization and Plugin Integration
-
+2. OpenMCT Customization and Plugin Integration
 Extended telemetry parameter definitions using a Python-based telemetry object generator.
-
 Configured JavaScript and JSON files to define telemetry identifiers, display names, and data types.
-
-Registered aircraft-specific plugins and real-time/historical telemetry providers within Open MCT.
-
+Registered aircraft-specific plugins and real-time/historical telemetry providers within OpenMCT.
 Modified the Node.js telemetry server to incorporate the additional aircraft telemetry modules.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/openmct_tele.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/openmct_plugin.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row align-items-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/openmct_tele.png"
+       class="img-fluid rounded z-depth-1"
+       style="height: 250px; width: 100%; object-fit: contain;" %}
+  </div>
+
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/openmct_plugin.png"
+       class="img-fluid rounded z-depth-1"
+       style="height: 250px; width: 100%; object-fit: contain;" %}
+  </div>
 </div>
 
 3. Simulation, Testing, and Troubleshooting
 
 Established a simulation environment using PX4 SITL and jMAVSim to test the ground station integration.
 
-Verified telemetry data visualization in Open MCT using simulated UAV flight data.
+Verified telemetry data visualization in OpenMCT using simulated UAV flight data.
 
 Investigated and resolved development environment, library dependency, and compilation issues during MAVSDK integration.
 
