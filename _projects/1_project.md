@@ -89,7 +89,7 @@ Documented environment configuration, integration procedures, and troubleshootin
     </div>
 </div>
 <div class="caption">
-    Open MCT telemetry visualization failure despite successful telemetry reception from the PX4 simulator, as verified through terminal output.
+    OpenMCT failing to display telemetry data despite successful reception in the terminal
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
