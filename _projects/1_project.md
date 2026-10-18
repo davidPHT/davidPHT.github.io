@@ -36,7 +36,7 @@ OpenMCT to enable real-time UAV telemetry visualization.
     </div>
 </div>
 <div class="caption">
-    Figure 1. System architecture of the OpenMCT-based UAV ground station.
+    System architecture of the OpenMCT-based UAV ground station.
 </div>
 
 ---
@@ -49,12 +49,12 @@ I was primarily responsible for the development and integration of the OpenMCT-b
 
     Technologies: C++, Python, JavaScript, Node.js, OpenMCT, MAVSDK, MAVLink, MAVProxy, PX4 SITL, jMAVSim, CMake
 
-1. MAVSDK Telemetry Integration
+##### MAVSDK Telemetry Integration
 Adapted existing MAVSDK C++ example code to retrieve UAV flight telemetry from PX4 via the MAVLink protocol.
 Integrated MAVProxy to forward MAVLink messages to both QGroundControl and the MAVSDK application.
 Connected the MAVSDK application to the OpenMCT telemetry server through socket communication.
 
-2. OpenMCT Customization and Plugin Integration
+##### OpenMCT Customization and Plugin Integration
 Extended telemetry parameter definitions using a Python-based telemetry object generator.
 Configured JavaScript and JSON files to define telemetry identifiers, display names, and data types.
 Registered aircraft-specific plugins and real-time/historical telemetry providers within OpenMCT.
@@ -66,7 +66,7 @@ Modified the Node.js telemetry server to incorporate the additional aircraft tel
        loading="eager"
        path="assets/img/openmct_tele.png"
        class="img-fluid rounded z-depth-1"
-       style="height: 250px; width: 100%; object-fit: contain;" %}
+       style="height: 125px; width: 50%; object-fit: contain;" %}
   </div>
 
   <div class="col-sm-6 mt-3 mt-md-0">
@@ -74,30 +74,22 @@ Modified the Node.js telemetry server to incorporate the additional aircraft tel
        loading="eager"
        path="assets/img/openmct_plugin.png"
        class="img-fluid rounded z-depth-1"
-       style="height: 250px; width: 100%; object-fit: contain;" %}
+       style="height: 125px; width: 50%; object-fit: contain;" %}
   </div>
 </div>
 
-3. Simulation, Testing, and Troubleshooting
+##### Simulation, Testing, and Troubleshooting
 Established a simulation environment using PX4 SITL and jMAVSim to test the ground station integration.
 Verified telemetry data visualization in OpenMCT using simulated UAV flight data.
 Investigated and resolved development environment, library dependency, and compilation issues during MAVSDK integration.
 Documented environment configuration, integration procedures, and troubleshooting results for future development.
-
-
-
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/GS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/openmct_error.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Open MCT telemetry visualization failure despite successful telemetry reception from the PX4 simulator, as verified through terminal output.
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
