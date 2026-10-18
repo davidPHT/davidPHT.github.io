@@ -79,13 +79,9 @@ Modified the Node.js telemetry server to incorporate the additional aircraft tel
 </div>
 
 3. Simulation, Testing, and Troubleshooting
-
 Established a simulation environment using PX4 SITL and jMAVSim to test the ground station integration.
-
 Verified telemetry data visualization in OpenMCT using simulated UAV flight data.
-
 Investigated and resolved development environment, library dependency, and compilation issues during MAVSDK integration.
-
 Documented environment configuration, integration procedures, and troubleshooting results for future development.
 
 
