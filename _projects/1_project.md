@@ -129,5 +129,3 @@ The current ground station operates in a local environment, requiring users to a
 Future development could focus on deploying the telemetry server to a remotely accessible environment, enabling users to monitor UAV flight data from multiple computers over a network.
 
 This extension would improve system accessibility and support collaborative flight monitoring without requiring direct access to the ground station computer.
-
-{% endraw %}
