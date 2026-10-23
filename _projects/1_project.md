@@ -79,51 +79,54 @@ Modified the Node.js telemetry server to incorporate the additional aircraft tel
 </div>
 
 ##### Simulation, Testing, and Troubleshooting
-Established a simulation environment using PX4 SITL and jMAVSim to test the ground station integration.
-Verified telemetry data visualization in OpenMCT using simulated UAV flight data.
-Investigated and resolved development environment, library dependency, and compilation issues during MAVSDK integration.
-Documented environment configuration, integration procedures, and troubleshooting results for future development.
+Established a simulation environment using PX4 SITL and jMAVSim to verify the integration between MAVSDK and OpenMCT.
+During development, encountered telemetry visualization issues where flight data was successfully received in the terminal but could not be displayed in OpenMCT. Investigated integration issues and performed debugging to establish a functional telemetry visualization system.
+Documented environment configurations, integration procedures, and troubleshooting experiences for future development.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/openmct_error.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    OpenMCT failing to display telemetry data despite successful reception in the terminal
+    OpenMCT telemetry visualization failure despite successful telemetry reception from the PX4 simulator, as verified through terminal output.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+##### Results & Demonstration
+
+The OpenMCT-based UAV ground station was successfully integrated and validated through both Software-in-the-Loop (SITL) simulation and real-world flight testing.
+
+During SITL testing, OpenMCT and QGroundControl operated simultaneously, successfully displaying flight telemetry parameters such as roll angle and latitude.
+
+The system was also tested during actual UAV flights, where both OpenMCT and QGroundControl successfully received and displayed flight telemetry data, demonstrating the functionality of the integrated ground station under real-world operating conditions.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/openmct_result.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Simulation testing: Roll angle telemetry visualization using PX4 SITL and jMAVSim
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/openmct_result2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    SITL validation: Simultaneous operation of QGroundControl and OpenMCT with latitude telemetry visualization
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+##### Future Work
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The current ground station operates in a local environment, requiring users to access OpenMCT through the host computer.
+
+Future development could focus on deploying the telemetry server to a remotely accessible environment, enabling users to monitor UAV flight data from multiple computers over a network.
+
+This extension would improve system accessibility and support collaborative flight monitoring without requiring direct access to the ground station computer.
 
 {% endraw %}
