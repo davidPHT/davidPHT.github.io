@@ -14,7 +14,8 @@ Our team previously used QGroundControl (QGC) for UAV operations. However, analy
 
 To address these limitations, we adopted NASA's open-source Open Mission Control Technologies (OpenMCT) framework to develop a customizable ground station. By integrating UAV telemetry data with OpenMCT, the system was designed to provide real-time visualization of flight parameters, enabling more efficient flight monitoring and data analysis.
 
- ---
+---
+
 ### Development Environment
     Ground Station Framework: NASA OpenMCT
     Programming Languages: C++, Python, JavaScript
@@ -27,7 +28,7 @@ To address these limitations, we adopted NASA's open-source Open Mission Control
 
 ---
 
-### Systemm Architecture
+### System Architecture
 The ground station integrates PX4, MAVSDK, and NASA
 OpenMCT to enable real-time UAV telemetry visualization.
 <div class="row">
@@ -94,7 +95,7 @@ Documented environment configurations, integration procedures, and troubleshooti
 
 ---
 
-##### Results & Demonstration
+### Results & Demonstration
 
 The OpenMCT-based UAV ground station was successfully integrated and validated through both Software-in-the-Loop (SITL) simulation and real-world flight testing.
 
@@ -122,27 +123,10 @@ The system was also tested during actual UAV flights, where both OpenMCT and QGr
 
 ---
 
-##### Future Work
+### Future Work
 
 The current ground station operates in a local environment, requiring users to access OpenMCT through the host computer.
 
 Future development could focus on deploying the telemetry server to a remotely accessible environment, enabling users to monitor UAV flight data from multiple computers over a network.
 
 This extension would improve system accessibility and support collaborative flight monitoring without requiring direct access to the ground station computer.
-
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
