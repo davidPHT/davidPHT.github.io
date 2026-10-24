@@ -1,50 +1,40 @@
 cv:
-  name: Albert Einstein
+  name: Ping-Hua Tsai
   label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  email: david010330@example.com
+  location: ChangHua, Taiwan
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  summary: a recent Master's graduate in Aeronautics and Astronautics from National Cheng Kung University (NCKU), with a focus on control systems, embedded software, and hardware-software integration
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: Facebook
+      username: PingHua Tsai
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: davidPHT
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 
+    city: 
+    region: 
+    postalCode: 
+    countryCode: 
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: National Cheng Kung University
+        location: Tainan, Taiwan
+        url: https://www.ncku.edu.tw/
+        area: Aeronautics and Astronautics
+        studyType: Master
+        start_date: 2024
+        end_date: 2026
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: National Cheng Kung University
+        location: Tainan, Taiwan
+        url: https://www.ncku.edu.tw/
+        area: Aeronautics and Astronautics
+        studyType: Bachelor
+        start_date: 2020
+        end_date: 2024
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
