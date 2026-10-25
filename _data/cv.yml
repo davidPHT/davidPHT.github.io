@@ -1,28 +1,19 @@
 cv:
   name: Ping-Hua Tsai
-  label: Scientist
   email: david010330@example.com
   location: ChangHua, Taiwan
-  image: ""
-  summary: a recent Master's graduate in Aeronautics and Astronautics from National Cheng Kung University (NCKU), with a focus on control systems, embedded software, and hardware-software integration
   social_networks:
-    - network: Facebook
-      username: PingHua Tsai
     - network: GitHub
       username: davidPHT
 
-  address:
-    street: 
-    city: 
-    region: 
-    postalCode: 
-    countryCode: 
-
   sections:
+    Profile:
+      - A recent Master's graduate in Aeronautics and Astronautics from National Cheng Kung University (NCKU), with a focus on control systems, embedded software, and hardware-software integration.
+
     Education:
       - institution: National Cheng Kung University
         location: Tainan, Taiwan
-        url: https://www.ncku.edu.tw/
+        url: https://web.ncku.edu.tw/
         area: Aeronautics and Astronautics
         studyType: Master
         start_date: 2024
@@ -30,7 +21,7 @@ cv:
 
       - institution: National Cheng Kung University
         location: Tainan, Taiwan
-        url: https://www.ncku.edu.tw/
+        url: https://web.ncku.edu.tw/
         area: Aeronautics and Astronautics
         studyType: Bachelor
         start_date: 2020
